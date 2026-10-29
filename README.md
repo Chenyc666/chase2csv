@@ -7,6 +7,15 @@ The tool also attempts to read payee names from embedded check images and
 match them to transactions by check number. It assists statement preparation
 and manual review; it does not replace accounting judgment.
 
+## Sample Output
+
+The image below shows a spreadsheet preview of the exported transaction data.
+
+![Sample transaction CSV output](Transaction%20CSV%20sample.png)
+
+The preview contains six columns. The current export schema also includes
+the reserved `Balance` column described above.
+
 ## Scope
 
 This version targets specific Chase checking-statement layouts.
